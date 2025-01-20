@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* nav screen */
+.flex-center {
+  @apply flex justify-center items-center;
+}
+.flex-between {
+  @apply flex justify-between items-center;
+}
+.item {
+  @apply flex-between font-[400] text-2xl py-1 text-h;
+}
+
+.text-hover {
+  @apply hover:bg-[rgba(0,0,0,0.1)];
+}
+.btn-hover {
+  @apply hover:bg-[rgba(0,0,0,0.7)];
+}
+.text-h {
+  @apply hover:text-[rgba(0,0,0,0.5)];
+}
+.list-items {
+  @apply text-lg font-medium py-2;
+}
+.item-list {
+  @apply block font-semibold leading-5 text-[13px] text-[rgba(0,0,0,0.7)] hover:text-[rgba(0,0,0,1)];
+}
