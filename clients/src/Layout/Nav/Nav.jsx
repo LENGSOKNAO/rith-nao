@@ -172,7 +172,7 @@ const Nav = () => {
                         <Link className="item-list">Accessoris</Link>
                       </div>
                       <div className="">
-                        <h2 className="list-items">New</h2>
+                        <h2 className="list-items">Kids</h2>
                         <Link className="item-list">New</Link>
                         <Link className="item-list">Shose By Age </Link>
                         <Link className="item-list">Clothing By Age </Link>
@@ -503,7 +503,7 @@ const Nav = () => {
                         <Link className="item-list">Accessoris</Link>
                       </div>
                       <div className="">
-                        <h2 className="list-items">New</h2>
+                        <h2 className="list-items">Kids</h2>
                         <Link className="item-list">New</Link>
                         <Link className="item-list">Shose By Age </Link>
                         <Link className="item-list">Clothing By Age </Link>
@@ -743,7 +743,7 @@ const Nav = () => {
                         <Link className="item-list">Accessoris</Link>
                       </div>
                       <div className="">
-                        <h2 className="list-items">New</h2>
+                        <h2 className="list-items">Kids</h2>
                         <Link className="item-list">New</Link>
                         <Link className="item-list">Shose By Age </Link>
                         <Link className="item-list">Clothing By Age </Link>
@@ -1053,7 +1053,7 @@ const Nav = () => {
                         <Link className="item-list">Accessoris</Link>
                       </div>
                       <div className="">
-                        <h2 className="list-items">New</h2>
+                        <h2 className="list-items">Kids</h2>
                         <Link className="item-list">New</Link>
                         <Link className="item-list">Shose By Age </Link>
                         <Link className="item-list">Clothing By Age </Link>
