@@ -6,7 +6,7 @@ import { DataBannerNike } from "../../../Data/DataBannerNikeFull";
 
 const BannerNike = () => {
   return (
-    <article>
+    <article className=" ">
       <Swiper
         pagination={true}
         loop={true}
@@ -18,10 +18,10 @@ const BannerNike = () => {
         className="mySwiper h-[70vh] w-[100%] "
       >
         {DataBannerNike.map((e, i) => (
-          <SwiperSlide key={i} className="relative ">
+          <SwiperSlide key={i} className="relative  ">
             <img
               c
-              className="h-[100%]  object-cover  w-[100%] "
+              className="h-[100%] object-cover  w-[100%] "
               src={e.link}
               alt=""
             />

@@ -32,10 +32,10 @@ const Nav = () => {
   };
 
   return (
-    <nav>
+    <nav className="py-2  ">
       {/*  */}
       <div className="sm:hidden md:hidden  xl:hidden">
-        <div className="flex-between p-5 ">
+        <div className="flex-between p-5 z-50">
           <Link to="/">
             <img className="w-[100px]" src="./src/assets/logo.png" alt="" />
           </Link>
@@ -122,8 +122,8 @@ const Nav = () => {
         {/* list items navbar */}
         {bar && (
           <div className="">
-            <div className=" w-[100%] overflow-hidden   100 opacity-50 bg-black absolute top-0  h-[100vh]"></div>
-            <div className="absolute top-0 h-[100vh] bg-[#fff]  right-0">
+            <div className=" w-[100%] overflow-hidden  100 opacity-50 bg-black absolute top-0  h-[100vh]"></div>
+            <div className="absolute top-0 h-[100vh] z-50 bg-[#fff]  right-0">
               <div
                 onClick={() => {
                   setBar((e) => !e);
@@ -275,7 +275,7 @@ const Nav = () => {
                   </div>
                 )}
                 <div className="item">
-                  <Link onClick={() => setAnta((a) => !a)}>Anta</Link>
+                  <Link to='/anta' onClick={() => setAnta((a) => !a)}>Anta</Link>
                   <BsChevronRight />
                 </div>
                 {anta && (
@@ -454,7 +454,7 @@ const Nav = () => {
         {bar && (
           <div className="">
             <div className=" w-[100%] overflow-hidden   100 opacity-50 bg-black absolute top-0  h-[100vh]"></div>
-            <div className="absolute top-0 h-[100vh] bg-[#fff]  right-0">
+            <div className="absolute top-0 h-[100vh] z-50 bg-[#fff]  right-0">
               <div
                 onClick={() => {
                   setBar((e) => !e);
@@ -761,7 +761,7 @@ const Nav = () => {
                 onMouseLeave={() => setAnta(false)}
                 className=""
               >
-                <Link>ANTA</Link>
+                <Link to='/anta' >ANTA</Link>
                 {anta && (
                   <div className="flex justify-center w-[100%] absolute top-0 left-0 z-[-1] border-b-2 bg-white  ">
                     <div className=" w-[90%] flex-between px-[100px] my-[100px] ​ ">
@@ -1071,7 +1071,7 @@ const Nav = () => {
                 onMouseLeave={() => setAnta(false)}
                 className=""
               >
-                <Link>ANTA</Link>
+                <Link to='/anta' >ANTA</Link>
                 {anta && (
                   <div className="flex justify-center w-[100%] absolute top-0 left-0 z-[-1] border-b-2 bg-white  ">
                     <div className=" w-[65%] flex justify-between px-[200px] my-[100px] ​ ">

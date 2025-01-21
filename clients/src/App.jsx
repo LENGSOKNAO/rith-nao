@@ -6,6 +6,7 @@ import NikeHome from "./Screen/Nike/NikeHome";
 import "swiper/css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import AntaHome from "./Screen/Anta/AntaHome";
 
 const App = () => {
   AOS.init();
@@ -14,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/nike" element={<NikeHome />} />
+        <Route path="/anta" element={<AntaHome />} />
         <Route path="/prodcut/:id" element={<Product />} />
       </Routes>
     </>
